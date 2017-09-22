@@ -1,7 +1,7 @@
 FROM java:8-jdk
 
 WORKDIR /home/apps/
-ADD target/datacy-1.0.0.jar .
+ADD target/cyc-1.0.0.jar .
 ADD target/lib ./lib
 ADD start.sh .
 
